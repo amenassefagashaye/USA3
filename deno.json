@@ -1,0 +1,10 @@
+{
+  "imports": {
+    "std/": "https://deno.land/std@0.200.0/",
+    "ws/": "https://deno.land/std@0.200.0/ws/"
+  },
+  "tasks": {
+    "start": "deno run --allow-net --allow-read server.ts",
+    "dev": "deno run --watch --allow-net --allow-read server.ts"
+  }
+}
